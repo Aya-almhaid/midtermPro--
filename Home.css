@@ -1,0 +1,51 @@
+/* ===== Container ===== */
+.home-container {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* ===== Title ===== */
+.home-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.home-subtitle {
+    color: #94a3b8;
+    margin-bottom: 40px;
+}
+
+/* ===== Grid ===== */
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* ===== Card ===== */
+.home-card {
+    text-decoration: none;
+    background: linear-gradient(145deg, #0f172a, #020617);
+    padding: 25px;
+    border-radius: 16px;
+    color: white;
+    transition: 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Hover effect */
+.home-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
+}
+
+/* Text */
+.home-card h2 {
+    margin-bottom: 10px;
+}
+
+.home-card p {
+    color: #94a3b8;
+}
